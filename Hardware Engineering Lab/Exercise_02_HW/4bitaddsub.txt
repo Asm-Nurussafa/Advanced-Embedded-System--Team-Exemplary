@@ -1,0 +1,36 @@
+entity rcadder is
+port(A1,A2,A3,A4,B1,B2,B3,B4,Cin : in bit ;
+     S1,S2,S3,S4,Co :out bit);
+end rcadder;
+
+architecture FA_dtF1 of rcadder is
+component fadder is
+port(A : in bit ;
+     B : in bit;
+     cin : in bit;
+     C : out bit;
+     S :out bit);
+end component;
+
+signal csig1, csig2, csig3,b1sig,b2sig,b3sig,b4sig : bit;
+
+begin
+  rc1 : fadder 
+
+	port map(A1, b1sig, Cin, csig1,S1);
+b1sig<=B1 xor Cin;
+
+  rc2: fadder
+
+	port map(A2, B2sig, csig1, csig2,S2);
+B2sig<=B2 xor Cin;
+  	
+  rc3 :  fadder
+
+	port map(A3, B3sig, csig2, csig3,S3);
+B3sig<=B3 xor Cin; 
+  rc4 :  fadder
+
+	port map(A4, B4sig, csig3,S4,Co);
+B4sig<=B4 xor Cin;
+end FA_dtF1;
