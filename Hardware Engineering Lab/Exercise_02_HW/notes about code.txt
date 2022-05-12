@@ -1,0 +1,5 @@
+Header with team names and contributors need to be added
+
+comments need to be added to make the reader understand easily
+
+task splitting for each file needs also to be mentioned

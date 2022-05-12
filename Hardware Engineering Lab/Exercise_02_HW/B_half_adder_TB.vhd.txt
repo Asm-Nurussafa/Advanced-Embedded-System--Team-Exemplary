@@ -1,0 +1,21 @@
+entity ha_adder_TB is 
+end ha_adder_TB;
+
+architecture behavioral of ha_adder_TB is
+component h_adder
+
+port( a,b : in bit; 
+      sum,carry : out bit); 
+end component;
+signal a_TB,b_TB: bit;
+signal sum_TB,carry_TB:bit;
+
+
+begin 
+uut:h_adder port map(a_TB,b_TB,sum_TB,carry_TB);
+a_TB<='1','0' after 10ns, '1' after 20 ns;
+b_TB<='1','0' after 10ns, '1' after 20 ns;
+
+
+
+end behavioral;
