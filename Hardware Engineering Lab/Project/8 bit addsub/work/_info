@@ -1,0 +1,260 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  3 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Vhd
+Eeight_b_ad_sub
+Z1 w1653248308
+!i122 41
+R0
+Z2 8C:/Vhd/work/P_8_B_addsub.vhd
+Z3 FC:/Vhd/work/P_8_B_addsub.vhd
+l0
+L1 1
+V[1jF6@QcQG2P<d671Iz1N2
+!s100 X^Rf0RcOEEB0]4`21eRo20
+Z4 OV;C;2021.1;73
+32
+Z5 !s110 1653250153
+!i10b 1
+Z6 !s108 1653250153.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Vhd/work/P_8_B_addsub.vhd|
+!s107 C:/Vhd/work/P_8_B_addsub.vhd|
+!i113 1
+Z8 o-work work -2002 -explicit
+Z9 tExplicit 1 CvgOpt 0
+Abehaviour
+Z10 DEx4 work 14 eight_b_ad_sub 0 22 [1jF6@QcQG2P<d671Iz1N2
+!i122 41
+l16
+Z11 L7 27
+Z12 VDI9biJM@KTWf_Gm]21bPZ0
+Z13 !s100 fmVHED4GI7^m5TLYPi?g^3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+Z14 !s107 C:/Vhd/work/P_8_B_addsub.vhd|
+!i113 1
+R8
+R9
+Abehavioral
+DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+DEx4 work 14 eight_b_ad_sub 0 22 :5SCK[Mi^Q8fEdbFXc:L12
+!i122 22
+l14
+L13 4
+V3iBkb<?gdM0;JU_XigBJ<2
+!s100 6fAA=OCoM13zo11noNMmb1
+R4
+32
+Z15 !s110 1653232745
+!i10b 1
+Z16 !s108 1653232745.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Vhd\P_8_B_addsub.vhd|
+Z18 !s107 C:\Vhd\P_8_B_addsub.vhd|
+!i113 1
+R8
+R9
+w1653232722
+Z19 FC:\Vhd\P_8_B_addsub.vhd
+Z20 8C:\Vhd\P_8_B_addsub.vhd
+Efour_b_ad_sub
+Z21 w1653247897
+!i122 38
+R0
+Z22 8C:/Vhd/work/G_4_B_adder_subtractor.vhd
+Z23 FC:/Vhd/work/G_4_B_adder_subtractor.vhd
+l0
+L1 1
+VX3`OLjCflP69iG7WF`?QV0
+!s100 MDW[8hP?TB1XbaC7KOk;B0
+R4
+32
+Z24 !s110 1653250152
+!i10b 1
+Z25 !s108 1653250152.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Vhd/work/G_4_B_adder_subtractor.vhd|
+Z27 !s107 C:/Vhd/work/G_4_B_adder_subtractor.vhd|
+!i113 1
+R8
+R9
+Afa_dtf1
+DEx4 work 13 four_b_ad_sub 0 22 X3`OLjCflP69iG7WF`?QV0
+!i122 38
+l16
+L7 22
+VgEQ:EH7a5W:CUi;3O8C7O0
+!s100 U^Q1;eGRnDRVL10z?3niN3
+R4
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R8
+R9
+Abehaviour
+DEx4 work 13 four_b_ad_sub 0 22 _JCZbMU0^cN<iCfzz_Ija2
+!i122 30
+l16
+R11
+VbY4gJR_RRQ1Q0?XDI5i1[1
+!s100 YZlMfO=UdbMn_3hhVj2@J0
+R4
+32
+!s110 1653248171
+!i10b 1
+!s108 1653248171.000000
+R17
+R18
+!i113 1
+R8
+R9
+R19
+w1653248166
+R20
+Efulladder
+Z28 w1653223615
+!i122 37
+R0
+Z29 8C:/Vhd/work/C_1_b_full_adder.vhd
+Z30 FC:/Vhd/work/C_1_b_full_adder.vhd
+l0
+L1 1
+V7l2Y>1oIbQgNDLD4<L?fo2
+!s100 XIZ=mf>D7jUKSn;M2naaP0
+R4
+32
+R24
+!i10b 1
+R25
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Vhd/work/C_1_b_full_adder.vhd|
+Z32 !s107 C:/Vhd/work/C_1_b_full_adder.vhd|
+!i113 1
+R8
+R9
+Afa_dtf1
+DEx4 work 9 fulladder 0 22 7l2Y>1oIbQgNDLD4<L?fo2
+!i122 37
+l18
+L9 16
+V3@EJ<Ec=3PDKkI=Hl_oaL2
+!s100 hln1XldPnGdeOaI8Z>o:j0
+R4
+32
+R24
+!i10b 1
+R25
+R31
+R32
+!i113 1
+R8
+R9
+Eh_adder
+R28
+!i122 36
+R0
+Z33 8C:/Vhd/work/A_half_adder.vhd
+Z34 FC:/Vhd/work/A_half_adder.vhd
+l0
+L1 1
+VD:i`Eh5l<48L2OdcN_4F53
+!s100 zO:9HPcBZ0Y8bZZgo?Yf[2
+R4
+32
+R24
+!i10b 1
+R25
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Vhd/work/A_half_adder.vhd|
+Z36 !s107 C:/Vhd/work/A_half_adder.vhd|
+!i113 1
+R8
+R9
+Adataflow
+DEx4 work 7 h_adder 0 22 D:i`Eh5l<48L2OdcN_4F53
+!i122 36
+l7
+L6 6
+VO]NTF5F6EPJB=LlW<`:mi2
+!s100 OKU<MinBIj>nSk9o0[a3^2
+R4
+32
+R24
+!i10b 1
+R25
+R35
+R36
+!i113 1
+R8
+R9
+Er_c_adder
+Z37 w1653247774
+!i122 39
+R0
+Z38 8C:/Vhd/work/E_1_b__r_c_adder.vhd
+Z39 FC:/Vhd/work/E_1_b__r_c_adder.vhd
+l0
+L1 1
+VMPi[@oP^lXPSXIYbI33Id3
+!s100 aEP[MQPTghe]V<jz1:c3>1
+R4
+32
+R5
+!i10b 1
+R25
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Vhd/work/E_1_b__r_c_adder.vhd|
+Z41 !s107 C:/Vhd/work/E_1_b__r_c_adder.vhd|
+!i113 1
+R8
+R9
+Abehaviour
+DEx4 work 9 r_c_adder 0 22 MPi[@oP^lXPSXIYbI33Id3
+!i122 39
+l19
+L6 45
+VF=b0YhXd]1G`0m:GPz25E1
+!s100 0W:R2fbCD]D`ha6`bc4j]3
+R4
+32
+R5
+!i10b 1
+R25
+R40
+R41
+!i113 1
+R8
+R9
+Afa_dtf1
+DEx4 work 9 r_c_adder 0 22 e4Fa9nP<:e]NPd3Z_f[QM1
+!i122 21
+l19
+L6 32
+VG?LoMn8KziAD;Qd]]Y5?z2
+!s100 zHozIY<EacDB]<fBMkHFP2
+R4
+32
+R15
+!i10b 1
+R16
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Vhd\work\E_1_b__r_c_adder.vhd|
+!s107 C:\Vhd\work\E_1_b__r_c_adder.vhd|
+!i113 1
+R8
+R9
+R28
+FC:\Vhd\work\E_1_b__r_c_adder.vhd
+8C:\Vhd\work\E_1_b__r_c_adder.vhd
