@@ -4,7 +4,7 @@ port(a1,a2,a3,a4,b1,b2,b3,b4,k : in bit ;
 end entity;
 
 
-architecture FA_dtF1 of four_b_add_sub is
+architecture FA_dtF1 of four_b_ad_sub is
 
 component r_c_adder is                                 -- component declaration of the ripple carry adder from the previous task
 port(A1,A2,A3,A4,B1,B2,B3,B4,Cin : in bit ;
