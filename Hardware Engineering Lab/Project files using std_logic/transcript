@@ -1,0 +1,12 @@
+# Compile of 1_bit_full_adder.vhd was successful.
+# Compile of 1_bit_full_adder_TB.vhd was successful with warnings.
+# Compile of 4b_adder_subtractor.vhd failed with 1 errors.
+# Compile of 8_bit multiplier.vhd was successful.
+# Compile of 8_bit_multiplier_TB.vhd was successful with warnings.
+# Compile of BCD_to_7 seg.vhd was successful.
+# Compile of e8_bit_ad_sub.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# Compile of half_adder_TB.vhd was successful with warnings.
+# Compile of r_c_adder.vhd was successful.
+# Compile of r_c_adder_TB.vhd was successful with warnings.
+# 11 compiles, 1 failed with 1 error.
