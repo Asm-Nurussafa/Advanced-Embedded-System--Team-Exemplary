@@ -12,7 +12,7 @@ signal A,B,C,D  :  std_logic_vector(15 downto 0);
 signal sel     :  std_logic_vector (1 downto 0) ;
 signal F     :  std_logic_vector (15 downto 0) ;
 
-component  Mux_4_to_1 is
+component  Mux_4_to_1 
 
 port(A : in std_logic_vector(15 downto 0 );
      B : in std_logic_vector(15 downto 0 );

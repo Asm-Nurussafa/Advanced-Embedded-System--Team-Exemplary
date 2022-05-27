@@ -11,9 +11,9 @@ signal A_TB,B_TB  : std_logic_vector(7 downto 0);
 signal Ans_TB     : std_logic_vector (15 downto 0) ;
 
 
-component  e8_bt_multiplier is
+component  e8_bt_multiplier 
 
-port(x : in  std_logic_vector (7 downto 0);     --:= ?10101010?;
+port(x : in  std_logic_vector (7 downto 0);     --:= ?10101010?;
      y : in  std_logic_vector(7 downto 0);     --:= ?10101010?;
      Ans : out  std_logic_vector(15 downto 0));
 
