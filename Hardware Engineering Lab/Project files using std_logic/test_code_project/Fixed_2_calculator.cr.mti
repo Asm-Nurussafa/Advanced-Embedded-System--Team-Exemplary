@@ -1,0 +1,240 @@
+{C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8b_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8b_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity e8_b_adder
+-- Compiling architecture behaviour of e8_b_adder
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8_b_subtractor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8_b_subtractor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eight_b_sub
+-- Compiling architecture behaviour of eight_b_sub
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/Fixed_cal.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/Fixed_cal.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fixed_calculator
+-- Compiling architecture behaviour of fixed_calculator
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/Fixed_cal.vhd(69): (vcom-1162) Formal "co" of mode INOUT cannot be associated with an expression.
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/half_adder_TB.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/half_adder_TB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ha_adder_TB
+-- Compiling architecture behavioral of ha_adder_TB
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/half_adder_TB.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/half_adder_TB.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8_bit_ad_sub.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8_bit_ad_sub.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eight_b_ad_sub
+-- Compiling architecture behaviour of eight_b_ad_sub
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/BCD_to_7 seg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/BCD_to_7 seg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bcd_7seg
+-- Compiling architecture Behavioral of bcd_7seg
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/calcultaor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/calcultaor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity calculator
+-- Compiling architecture behaviour of calculator
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/adder_to_mux.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/adder_to_mux.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ei8_b_adder
+-- Compiling architecture behaviour of ei8_b_adder
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/extra.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/extra.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+** Error: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/extra.vhd(3): near "/": syntax error
+
+} {4.0 5.0} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/8_bit multiplier.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/8_bit multiplier.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity e8_bt_multiplier
+-- Compiling architecture arc_8_b_multiplier of e8_bt_multiplier
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux_4_to_1
+-- Compiling architecture behaviour of Mux_4_to_1
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder_TB.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder_TB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity r_c_adder_TB
+-- Compiling architecture behavioral of r_c_adder_TB
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder_TB.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder_TB.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder_TB.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder_TB.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder_TB.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder_TB.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder_TB.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder_TB.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16_bcd_decorder.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16_bcd_decorder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+** Error (suppressible): C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16_bcd_decorder.vhd(2): (vcom-1491) Empty source files.
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/16b_decorder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/16b_decorder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bcd_7seg
+-- Compiling architecture Behavioral of bcd_7seg
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fulladder
+-- Compiling architecture FA_dtF1 of fulladder
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/8_bit_multiplier_TB.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/8_bit_multiplier_TB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity e8_bit_multiplier_TB
+-- Compiling architecture behavioral of e8_bit_multiplier_TB
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/8_bit_multiplier_TB.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/8_bit_multiplier_TB.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/half_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/half_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity h_adder
+-- Compiling architecture dataflow of H_adder
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package MATH_COMPLEX
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bcd_7seg
+-- Compiling architecture Behavioral of bcd_7seg
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(118): (vcom-1013) Initial value of "bint" depends on value of signal "Hex_Display_Data".
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(45): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(46): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(47): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(48): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(49): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(50): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(51): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(52): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(53): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(54): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(55): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(62): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(63): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(64): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(65): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(66): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(67): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(68): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(69): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(70): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(71): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(72): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(79): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(80): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(81): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(82): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(83): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(84): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(85): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(86): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(87): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(88): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(89): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(96): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(97): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(98): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(99): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(100): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(101): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(102): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(103): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(104): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(105): (vcom-1272) Length of expected is 8; length of actual is 7.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/b16b_decorder.vhd(106): (vcom-1272) Length of expected is 8; length of actual is 7.
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity r_c_adder
+-- Compiling architecture FA_dtF1 of r_c_adder
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fin_decod.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fin_decod.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bcdm
+-- Compiling architecture fum of bcdm
+** Error: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fin_decod.vhd(41): near "port": syntax error
+** Note: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fin_decod.vhd(145): VHDL Compiler exiting
+
+} {9.0 10.0} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/4b_adder_subtractor.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/4b_adder_subtractor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity four_b_ad_sub
+-- Compiling architecture FA_dtF1 of four_b_add_sub
+** Error: (vcom-11) Could not find work.four_b_add_sub.
+** Note: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/4b_adder_subtractor.vhd(11): VHDL Compiler exiting
+
+} {8.0 9.0} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder_TB.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder_TB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Compiling entity full_adder_TB
+-- Compiling architecture behavioral of full_adder_TB
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder_TB.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder_TB.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder_TB.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}}
