@@ -4,7 +4,7 @@ entity eight_b_ad_sub is
 port(k : in std_logic ;
       a: in std_logic_vector(7 downto 0);
       b: in std_logic_vector(7 downto 0);
-      s: out std_logic_vector(7 downto 0);
+      s_a: out std_logic_vector(7 downto 0);
       co       : out std_logic);
 end entity;
 
@@ -43,14 +43,14 @@ x5<=a(5);
 x6<=a(6);
 x7<=a(7);
 
-s(0)<=y0;
-s(1)<=y1;
-s(2)<=y2;
-s(3)<=y3;
-s(4)<=y4;
-s(5)<=y5;
-s(6)<=y6;
-s(7)<=y7;
+s_a(0)<=y0;
+s_a(1)<=y1;
+s_a(2)<=y2;
+s_a(3)<=y3;
+s_a(4)<=y4;
+s_a(5)<=y5;
+s_a(6)<=y6;
+s_a(7)<=y7;
 
 
 

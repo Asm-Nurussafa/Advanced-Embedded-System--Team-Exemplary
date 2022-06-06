@@ -1,12 +1,11 @@
-
-
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity bcdm is
-    port ( 
-        input:      in   std_logic_vector (15 downto 0);
+    port (
+        
+        input:      inout   std_logic_vector (15 downto 0);
         ones:       inout  std_logic_vector (3 downto 0);
         tens:       inout  std_logic_vector (3 downto 0);
         hundreds:   inout  std_logic_vector (3 downto 0);
@@ -17,12 +16,31 @@ LED_out_1,LED_out_2,LED_out_3,LED_out_4 : inout std_logic_vector(6 downto 0 )
 end entity;
 
 architecture fum of bcdm is
-    alias Hex_Display_Data: std_logic_vector (15 downto 0) is input;
+----------------------------------------------------------------------
+
+
+component Mux_4_to_1  is
+
+port(A : in std_logic_vector(15 downto 0 );
+     B : in std_logic_vector(15 downto 0 );
+     C : in  std_logic_vector(15 downto 0 );
+     D : in  std_logic_vector(15 downto 0 );
+     Sel : in  bit_vector(1 downto 0 ); 
+     F : out  std_logic_vector(15 downto 0) );
+end component;
+---------------------------------------------------------------------
+
+alias Hex_Display_Data: std_logic_vector (15 downto 0) is input;
     alias rpm_1:    std_logic_vector (3 downto 0) is ones;
     alias rpm_10:   std_logic_vector (3 downto 0) is tens;
     alias rpm_100:  std_logic_vector (3 downto 0) is hundreds;
     alias rpm_1000: std_logic_vector (3 downto 0) is thousands;
 begin
+   
+   mux1 :   
+          port map();
+
+    
     process (Hex_Display_Data)
         type fourbits is array (3 downto 0) of std_logic_vector(3 downto 0);
         -- variable i : integer := 0;  -- NOT USED
@@ -67,7 +85,7 @@ end process;
 process(rpm_1,rpm_10,rpm_100,rpm_1000)
 begin
  case rpm_1 is
-    when "0000" => LED_out_1 <= "0000001"; -- "0"        
+    when "0000" => LED_out_1 <= "0000001"; -- "0"     
     when "0001" => LED_out_1 <= "1001111"; -- "1" 
     when "0010" => LED_out_1 <= "0010010"; -- "2" 
     when "0011" => LED_out_1 <= "0000110"; -- "3" 

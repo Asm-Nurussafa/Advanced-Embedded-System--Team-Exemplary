@@ -26,14 +26,14 @@ component e_sub  is
 port( a: in std_logic_vector(7 downto 0);
       b: in std_logic_vector(7 downto 0);
       s_s: buffer std_logic_vector(15 downto 0);
-      co       : inout std_logic);
+      co       : in std_logic);
 end component;
 
 ----------------------------------------------------
 
 component e8_bt_multiplier  is
 
-port(x : in  std_logic_vector(7 downto 0);     --:= ?10101010?;
+port(x : in  std_logic_vector(7 downto 0);     --:= ?10101010?;
      y : in  std_logic_vector(7 downto 0);     --:= ?10101010?;
      Ans : out  std_logic_vector(15 downto 0));
 end component;

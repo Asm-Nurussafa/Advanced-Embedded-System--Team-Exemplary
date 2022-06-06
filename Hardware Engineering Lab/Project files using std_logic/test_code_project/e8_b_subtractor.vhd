@@ -6,7 +6,7 @@ port(
       a: in std_logic_vector(7 downto 0);
       b: in std_logic_vector(7 downto 0);
       s_s: buffer std_logic_vector(15 downto 0);
-      co       : inout std_logic);
+      co       : in std_logic);
 end entity;
 
 

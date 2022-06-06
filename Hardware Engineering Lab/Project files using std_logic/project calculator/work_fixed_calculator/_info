@@ -1,0 +1,708 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  3 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator
+Ebcd_7seg
+Z1 w1653577413
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 329
+R0
+Z4 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/BCD_to_7 seg.vhd
+Z5 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/BCD_to_7 seg.vhd
+l0
+L4 1
+V0jboS@NQ9D]kajP<aTkV73
+!s100 J167;bYSOFfmD_9>1Q6`V1
+Z6 OV;C;2021.1;73
+32
+Z7 !s110 1654529185
+!i10b 1
+Z8 !s108 1654529185.000000
+Z9 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/BCD_to_7 seg.vhd|
+Z10 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/BCD_to_7 seg.vhd|
+!i113 1
+Z11 o-work work_fixed_calculator -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+DEx4 work 8 bcd_7seg 0 22 0jboS@NQ9D]kajP<aTkV73
+!i122 329
+l11
+L9 13
+VB=@1[2B6W_d2a<;e?=UA13
+!s100 W9b;85TSOiIR3@NjBTLU50
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ebcdm
+w1654464550
+DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 333
+R0
+8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fin_decod.vhd
+FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fin_decod.vhd
+l0
+L5 1
+Vj>acI;ZH7TFZ>iT24z4GF0
+!s100 T:OTJYcld<Tkg<[>G9Yo[0
+R6
+32
+R7
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fin_decod.vhd|
+!s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fin_decod.vhd|
+!i113 1
+R11
+R12
+Ecalculator
+Z13 w1654479399
+R2
+R3
+!i122 215
+R0
+Z14 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/calcultaor.vhd
+Z15 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/calcultaor.vhd
+l0
+L7 1
+V8dz^X@NC6CPKH[]VVk68C1
+!s100 QhZXV<g6^6U3ic785>6<_2
+R6
+32
+Z16 !s110 1654482681
+!i10b 1
+Z17 !s108 1654482681.000000
+Z18 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/calcultaor.vhd|
+Z19 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/calcultaor.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R2
+R3
+DEx4 work 10 calculator 0 22 8dz^X@NC6CPKH[]VVk68C1
+!i122 215
+l65
+L15 69
+VHff`@8oIH[=T]@bFbd37e3
+!s100 7m>V`Yg>zUg0_9TWJjbG72
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Ee8_b_adder
+Z20 w1654482511
+R2
+R3
+!i122 332
+R0
+Z21 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8b_adder.vhd
+Z22 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8b_adder.vhd
+l0
+L4 1
+VPObA@g^mRCjY760HYd5lK2
+!s100 20i6kAVmK7n_46Y[^ChHI3
+R6
+32
+R7
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8b_adder.vhd|
+Z24 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8b_adder.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R2
+R3
+DEx4 work 10 e8_b_adder 0 22 PObA@g^mRCjY760HYd5lK2
+!i122 332
+l27
+Z25 L13 52
+V8E[QKz^hbLdCdEUL5b_XV1
+!s100 TGSN89bgdFk[2QMZ8CAN^2
+R6
+32
+R7
+!i10b 1
+R8
+R23
+R24
+!i113 1
+R11
+R12
+Ee8_bit_multiplier_tb
+Z26 w1653579818
+R2
+R3
+!i122 210
+R0
+Z27 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/8_bit_multiplier_TB.vhd
+Z28 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/8_bit_multiplier_TB.vhd
+l0
+L5 1
+VEGAc3AT:jDT_He9MB`Be:1
+!s100 _BheO>?`:>G:]LXZTg^?D3
+R6
+32
+Z29 !s110 1654482680
+!i10b 1
+Z30 !s108 1654482680.000000
+Z31 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/8_bit_multiplier_TB.vhd|
+Z32 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/8_bit_multiplier_TB.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 20 e8_bit_multiplier_tb 0 22 EGAc3AT:jDT_He9MB`Be:1
+!i122 210
+l24
+L8 24
+V<?0L7JNmH;RO9CS[@aeSo3
+!s100 1@lWY2HBBHNB^6V:^NRi^2
+R6
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R11
+R12
+Ee8_bt_multiplier
+Z33 w1653579653
+R2
+R3
+!i122 325
+R0
+Z34 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/8_bit multiplier.vhd
+Z35 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/8_bit multiplier.vhd
+l0
+L6 1
+Vg;fA?OIR<g:XkZB7aaB6=2
+!s100 ]d]lU>_o7CQ5]COm99E>10
+R6
+32
+Z36 !s110 1654529184
+!i10b 1
+Z37 !s108 1654529184.000000
+Z38 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/8_bit multiplier.vhd|
+Z39 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/8_bit multiplier.vhd|
+!i113 1
+R11
+R12
+Aarc_8_b_multiplier
+R2
+R3
+DEx4 work 16 e8_bt_multiplier 0 22 g;fA?OIR<g:XkZB7aaB6=2
+!i122 325
+l93
+L13 376
+VJQkfOz3T_PNZKfQaWZ4;k2
+!s100 ieb;MI5OmaLMhOW3<d6gH0
+R6
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R11
+R12
+Eei8_b_adder
+Z40 w1654464677
+R2
+R3
+!i122 327
+R0
+Z41 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/adder_to_mux.vhd
+Z42 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/adder_to_mux.vhd
+l0
+L5 1
+V8ki`ao@PKYc[OO<Hak1]i1
+!s100 _Wif17=OQ:cKg`cglD=jQ0
+R6
+32
+R36
+!i10b 1
+R37
+Z43 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/adder_to_mux.vhd|
+Z44 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/adder_to_mux.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R2
+R3
+DEx4 work 11 ei8_b_adder 0 22 8ki`ao@PKYc[OO<Hak1]i1
+!i122 327
+l28
+L14 52
+V`zON7g3eZ7[ZGKF[GDKm<1
+!s100 ;AERzbzWcggmQ`zY8c<@53
+R6
+32
+R36
+!i10b 1
+R37
+R43
+R44
+!i113 1
+R11
+R12
+Eeight_b_ad_sub
+Z45 w1653576872
+R2
+R3
+!i122 331
+R0
+Z46 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8_bit_ad_sub.vhd
+Z47 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8_bit_ad_sub.vhd
+l0
+L3 1
+V2FFk`9bg3DO43iJ[D_PkT2
+!s100 iF:OSKmnS^P>a0Y_YL2C`0
+R6
+32
+R7
+!i10b 1
+R8
+Z48 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8_bit_ad_sub.vhd|
+Z49 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8_bit_ad_sub.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R2
+R3
+DEx4 work 14 eight_b_ad_sub 0 22 2FFk`9bg3DO43iJ[D_PkT2
+!i122 331
+l26
+L12 52
+V2icPI=_L_:ki>NEG?5NmM0
+!s100 I0NE[[hP`CXnb3E8aWlI82
+R6
+32
+R7
+!i10b 1
+R8
+R48
+R49
+!i113 1
+R11
+R12
+Eeight_b_sub
+Z50 w1654528370
+R2
+R3
+!i122 330
+R0
+Z51 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8_b_subtractor.vhd
+Z52 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8_b_subtractor.vhd
+l0
+L4 1
+VE2lg7dfGI4_^zSMWM7DY92
+!s100 :KaOG]2Zk[d6b[m_8_UT;1
+R6
+32
+R7
+!i10b 1
+R8
+Z53 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8_b_subtractor.vhd|
+Z54 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/e8_b_subtractor.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R2
+R3
+DEx4 work 11 eight_b_sub 0 22 E2lg7dfGI4_^zSMWM7DY92
+!i122 330
+l27
+R25
+V3QQijklEe?TB8HL=S<5Ka0
+!s100 oofG^OoBZ@`<MS?]518c]1
+R6
+32
+R7
+!i10b 1
+R8
+R53
+R54
+!i113 1
+R11
+R12
+Efixed_calculator
+Z55 w1654528342
+R2
+R3
+!i122 334
+R0
+Z56 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/Fixed_cal.vhd
+Z57 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/Fixed_cal.vhd
+l0
+L5 1
+V628WMzdVkiP9jz^bc19_H3
+!s100 CJ=DKWIZHHJV=Goj<?Y2z3
+R6
+32
+R7
+!i10b 1
+R8
+Z58 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/Fixed_cal.vhd|
+Z59 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/Fixed_cal.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R2
+R3
+DEx4 work 16 fixed_calculator 0 22 628WMzdVkiP9jz^bc19_H3
+!i122 334
+l63
+L13 69
+VW0DN0[IiHbjFIz7kfY@Nh1
+!s100 gJS55C;=aj_APTMP`<W3X2
+R6
+32
+R7
+!i10b 1
+R8
+R58
+R59
+!i113 1
+R11
+R12
+Efour_b_ad_sub
+w1653579978
+R2
+R3
+!i122 208
+R0
+8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/4b_adder_subtractor.vhd
+FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/4b_adder_subtractor.vhd
+l0
+L5 1
+VI5_92Q6U>T[GMSSHEZDVF0
+!s100 SGHi0e]FBS5b4=`fSjglT2
+R6
+32
+R29
+!i10b 1
+Z60 !s108 1654482679.000000
+!s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/4b_adder_subtractor.vhd|
+!s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/4b_adder_subtractor.vhd|
+!i113 1
+R11
+R12
+Efull_adder_tb
+Z61 w1652290780
+!i122 207
+R0
+Z62 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder_TB.vhd
+Z63 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder_TB.vhd
+l0
+L2 1
+VTl@O`oE0Ih?aKKhDmXTBL3
+!s100 _^XTK607H>hnOkzcVAJ[^1
+R6
+32
+Z64 !s110 1654482679
+!i10b 1
+R60
+Z65 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder_TB.vhd|
+Z66 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder_TB.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+DEx4 work 13 full_adder_tb 0 22 Tl@O`oE0Ih?aKKhDmXTBL3
+!i122 207
+l22
+L5 25
+VQ9ImXRX`]eHjAFBEL6d1W0
+!s100 CVMl:6Koh6J^?W3`z1bTn1
+R6
+32
+R64
+!i10b 1
+R60
+R65
+R66
+!i113 1
+R11
+R12
+Efulladder
+Z67 w1653577200
+R2
+R3
+!i122 324
+R0
+Z68 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder.vhd
+Z69 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder.vhd
+l0
+L4 1
+Vl6Ch9O=P1eC;P]]nE>:no0
+!s100 bNmSOFUlW5WhGM_hieKo11
+R6
+32
+R36
+!i10b 1
+R37
+Z70 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder.vhd|
+Z71 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/1_bit_full_adder.vhd|
+!i113 1
+R11
+R12
+Afa_dtf1
+R2
+R3
+DEx4 work 9 fulladder 0 22 l6Ch9O=P1eC;P]]nE>:no0
+!i122 324
+l21
+L12 16
+V<i;MH?O;eRm>FUCC^FdSL0
+!s100 Bg^YE88;O@ZbO3>EJ7P`Y0
+R6
+32
+R36
+!i10b 1
+R37
+R70
+R71
+!i113 1
+R11
+R12
+Eh_adder
+Z72 w1653577294
+R2
+R3
+!i122 335
+R0
+Z73 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/half_adder.vhd
+Z74 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/half_adder.vhd
+l0
+L3 1
+V5@6fN4GQK9=BkoWU[?[[W3
+!s100 @lb;jhlk^Y<ZZfR4_a3CK1
+R6
+32
+Z75 !s110 1654529186
+!i10b 1
+R8
+Z76 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/half_adder.vhd|
+Z77 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/half_adder.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R2
+R3
+DEx4 work 7 h_adder 0 22 5@6fN4GQK9=BkoWU[?[[W3
+!i122 335
+l9
+L8 6
+VL;WiJR`C>YbaEXXh;e]Z73
+!s100 K3ZPEeEEf>XW;4Fdk8mnB0
+R6
+32
+R75
+!i10b 1
+R8
+R76
+R77
+!i113 1
+R11
+R12
+Eha_adder_tb
+Z78 w1653577687
+R2
+R3
+!i122 222
+R0
+Z79 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/half_adder_TB.vhd
+Z80 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/half_adder_TB.vhd
+l0
+L4 1
+VbzBm]fmlK4C0d5AUmk<QI3
+!s100 JcL9CdRczNI;z<aJG2_WN3
+R6
+32
+Z81 !s110 1654482682
+!i10b 1
+Z82 !s108 1654482682.000000
+Z83 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/half_adder_TB.vhd|
+Z84 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/half_adder_TB.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 11 ha_adder_tb 0 22 bzBm]fmlK4C0d5AUmk<QI3
+!i122 222
+l17
+L7 18
+V<<7`1KQlhhFA7?:VOmLEh2
+!s100 ;4XR23aK51>09Tno``0Uf1
+R6
+32
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 1
+R11
+R12
+Emux_4_to_1
+Z85 w1654482545
+R2
+R3
+!i122 310
+R0
+Z86 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1.vhd
+Z87 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1.vhd
+l0
+L5 1
+VF78zG49I^i1g0nO<jZ:`<3
+!s100 ?l?jLmJcCTni8i1z1[4i]0
+R6
+32
+Z88 !s110 1654528702
+!i10b 1
+Z89 !s108 1654528702.000000
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1.vhd|
+Z91 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1.vhd|
+!i113 1
+Z92 o-work work -2002 -explicit
+R12
+Abehaviour
+R2
+R3
+DEx4 work 10 mux_4_to_1 0 22 F78zG49I^i1g0nO<jZ:`<3
+!i122 310
+l17
+L15 18
+VNU41AGHlnBB4L=mYIfWAz1
+!s100 mcOo62A<^b5Kgi1oj_SDQ2
+R6
+32
+R88
+!i10b 1
+R89
+R90
+R91
+!i113 1
+R92
+R12
+Er_c_adder
+Z93 w1653577093
+R2
+R3
+!i122 336
+R0
+Z94 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder.vhd
+Z95 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder.vhd
+l0
+L4 1
+VEY;i1LT_`aZ=R2SD8Jf;Q2
+!s100 ?Q0D7hOkZGJO009Z>`EM70
+R6
+32
+R75
+!i10b 1
+Z96 !s108 1654529186.000000
+Z97 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder.vhd|
+Z98 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder.vhd|
+!i113 1
+R11
+R12
+Afa_dtf1
+R2
+R3
+Z99 DEx4 work 9 r_c_adder 0 22 EY;i1LT_`aZ=R2SD8Jf;Q2
+!i122 336
+l22
+Z100 L9 32
+Z101 Ve=nVP3^PlKm7BIfX1kamn0
+Z102 !s100 Zo@n9ImP?Y`TVhJNHm4NZ3
+R6
+32
+R75
+!i10b 1
+R96
+R97
+R98
+!i113 1
+R11
+R12
+Er_c_adder_tb
+Z103 w1653577777
+R2
+R3
+!i122 224
+R0
+Z104 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder_TB.vhd
+Z105 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder_TB.vhd
+l0
+L4 1
+VOIDD8B19HoQN3h[bT92]g2
+!s100 ]lUiJ2Xf2Z3NODC<27E693
+R6
+32
+R81
+!i10b 1
+R82
+Z106 !s90 -reportprogress|300|-work|work_fixed_calculator|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder_TB.vhd|
+Z107 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/r_c_adder_TB.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 12 r_c_adder_tb 0 22 OIDD8B19HoQN3h[bT92]g2
+!i122 224
+l21
+L7 27
+Vz?^G^5;@cDbg]YRS_@7541
+!s100 Z[<<:7PCdoUD`?CzAF5lo3
+R6
+32
+R81
+!i10b 1
+R82
+R106
+R107
+!i113 1
+R11
+R12

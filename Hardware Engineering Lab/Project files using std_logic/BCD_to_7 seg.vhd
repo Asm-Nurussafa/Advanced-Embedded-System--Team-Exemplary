@@ -1,5 +1,5 @@
 library ieee;
-use ieee.std_logic_1164.all;
+use ieee.std_logic_1164.all
 
 entity bcd_7seg is
 Port ( A,B,C,D : in std_logic;

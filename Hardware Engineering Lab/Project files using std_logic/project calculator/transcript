@@ -1,2 +1,214 @@
+project open {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fixed_calculator}
+# Compile of 1_bit_full_adder.vhd was successful.
+# Compile of 8_bit multiplier.vhd was successful.
+# Compile of 16b_decorder.vhd was successful.
+# Compile of adder_to_mux.vhd was successful.
+# Compile of b16b_decorder.vhd was successful with warnings.
+# Compile of BCD_to_7 seg.vhd was successful.
+# Compile of e8_b_subtractor.vhd was successful.
+# Compile of e8_bit_ad_sub.vhd was successful.
+# Compile of e8b_adder.vhd was successful.
+# Compile of fin_decod.vhd failed with 1 errors.
+# Compile of Fixed_cal.vhd was successful with warnings.
+# Compile of half_adder.vhd was successful.
+# Compile of r_c_adder.vhd was successful.
+# Compile of Mux_4_to_1.vhd was successful.
+# 14 compiles, 1 failed with 1 error.
+vsim -gui work.fixed_calculator
+# vsim -gui work.fixed_calculator 
+# Start time: 17:19:09 on Jun 06,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fixed_calculator(behaviour)
+# ** Warning: (vsim-3473) Component instance "FA1 : e_add" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /fixed_calculator File: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/Fixed_cal.vhd
+# ** Warning: (vsim-3473) Component instance "FA2 : e_sub" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /fixed_calculator File: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/Fixed_cal.vhd
+# Loading work.e8_bt_multiplier(arc_8_b_multiplier)
+# Loading work.fulladder(fa_dtf1)
+# Loading work.h_adder(dataflow)
+# ** Warning: (vsim-3473) Component instance "FA4 : e_add" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /fixed_calculator File: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/Fixed_cal.vhd
+# Loading work.mux_4_to_1(behaviour)
+# ** Fatal: (vsim-3807) Types do not match between component and entity for port "Sel".
+#    Time: 0 ps  Iteration: 0  Instance: /fixed_calculator/FA5 File: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1.vhd Line: 10
+# FATAL ERROR while loading design
+# Error loading design
+# ** Error: Zgifvregr
+#        Unable to replace existing ini file (C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fixed_calculator.mpf).  File can not be renamed.
+# ** Error: Zgifvregr
+#        Unable to replace existing ini file (C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fixed_calculator.mpf).  File can not be renamed.
+# End time: 17:19:11 on Jun 06,2022, Elapsed time: 0:00:02
+# Errors: 3, Warnings: 5
+# Compile of 1_bit_full_adder.vhd was successful with warnings.
+# Compile of 8_bit multiplier.vhd was successful with warnings.
+# Compile of 16b_decorder.vhd was successful with warnings.
+# Compile of adder_to_mux.vhd was successful with warnings.
+# Compile of b16b_decorder.vhd was successful with warnings.
+# Compile of BCD_to_7 seg.vhd was successful with warnings.
+# Compile of e8_b_subtractor.vhd was successful with warnings.
+# Compile of e8_bit_ad_sub.vhd was successful with warnings.
+# Compile of e8b_adder.vhd was successful with warnings.
+# Compile of fin_decod.vhd failed with 1 errors.
+# Compile of Fixed_cal.vhd was successful with warnings.
+# Compile of half_adder.vhd was successful with warnings.
+# Compile of r_c_adder.vhd was successful with warnings.
+# Compile of Mux_4_to_1.vhd was successful with warnings.
+# 14 compiles, 1 failed with 1 error.
+# Project file C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fixed_calculator.mpf is write protected, data cannot be saved.
+# Unable to save project.
+vsim -gui work.fixed_calculator
+# ** Warning: (vsim-14) Failed to open "C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fixed_calculator.mpf" specified by the MODELSIM environment variable.
+# No such file or directory. (errno = ENOENT)
+# vsim -gui work.fixed_calculator 
+# Start time: 17:25:49 on Jun 06,2022
+# ** Error: (vsim-7) Failed to open ini file "C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fixed_calculator.mpf" in read mode.
+# Invalid argument. (errno = EINVAL)
+# ** Error: (vsim-7) Failed to open ini file "C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fixed_calculator.mpf" in read mode.
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'std' at "std".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Project file C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fixed_calculator.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 17:25:50 on Jun 06,2022, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 1
+# Compile of 1_bit_full_adder.vhd was successful with warnings.
+# Compile of 8_bit multiplier.vhd was successful with warnings.
+# Compile of 16b_decorder.vhd was successful with warnings.
+# Compile of adder_to_mux.vhd was successful with warnings.
+# Compile of b16b_decorder.vhd was successful with warnings.
+# Compile of BCD_to_7 seg.vhd was successful with warnings.
+# Compile of e8_b_subtractor.vhd was successful with warnings.
+# Compile of e8_bit_ad_sub.vhd was successful with warnings.
+# Compile of e8b_adder.vhd was successful with warnings.
+# Compile of fin_decod.vhd failed with 1 errors.
+# Compile of Fixed_cal.vhd was successful with warnings.
+# Compile of half_adder.vhd was successful with warnings.
+# Compile of r_c_adder.vhd was successful with warnings.
+# Compile of Mux_4_to_1.vhd was successful with warnings.
+# 14 compiles, 1 failed with 1 error.
+# Project file C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fixed_calculator.mpf is write protected, data cannot be saved.
+# Unable to save project.
+vsim -gui work.fixed_calculator
+# ** Warning: (vsim-14) Failed to open "C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fixed_calculator.mpf" specified by the MODELSIM environment variable.
+# No such file or directory. (errno = ENOENT)
+# vsim -gui work.fixed_calculator 
+# Start time: 17:26:46 on Jun 06,2022
+# ** Error: (vsim-7) Failed to open ini file "C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fixed_calculator.mpf" in read mode.
+# Invalid argument. (errno = EINVAL)
+# ** Error: (vsim-7) Failed to open ini file "C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fixed_calculator.mpf" in read mode.
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'std' at "std".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Project file C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/fixed_calculator.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 17:26:46 on Jun 06,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
 # reading C:/intelFPGA_pro/21.1/modelsim_ase/win32aloem/../modelsim.ini
-# Loading project ex_04
+# Loading project new_cal
+# Compile of 1_bit_full_adder.vhd was successful.
+# Compile of 1_bit_full_adder_TB.vhd was successful with warnings.
+# Compile of 4b_adder_subtractor.vhd failed with 1 errors.
+# Compile of 8_bit multiplier.vhd was successful.
+# Compile of 8_bit_multiplier_TB.vhd was successful with warnings.
+# Compile of 16_b_mux.vhd was successful.
+# Compile of 16b_decorder.vhd was successful.
+# Compile of adder_to_mux.vhd was successful.
+# Compile of b16_bcd_decorder.vhd failed with 1 errors.
+# Compile of b16b_decorder.vhd was successful with warnings.
+# Compile of BCD_to_7 seg.vhd was successful.
+# Compile of calcultaor.vhd was successful.
+# Compile of e8_b_subtractor.vhd was successful.
+# Compile of e8_bit_ad_sub.vhd was successful.
+# Compile of e8b_adder.vhd was successful.
+# Compile of extra.vhd failed with 1 errors.
+# Compile of fin_decod.vhd failed with 1 errors.
+# Compile of Fixed_cal.vhd was successful with warnings.
+# Compile of half_adder.vhd was successful.
+# Compile of half_adder_TB.vhd was successful with warnings.
+# Compile of r_c_adder.vhd was successful.
+# Compile of r_c_adder_TB.vhd was successful with warnings.
+# 22 compiles, 4 failed with 4 errors.
+vsim -gui work.fixed_calculator
+# vsim -gui work.fixed_calculator 
+# Start time: 17:30:02 on Jun 06,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fixed_calculator(behaviour)
+# ** Warning: (vsim-3473) Component instance "FA1 : e_add" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /fixed_calculator File: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/Fixed_cal.vhd
+# ** Warning: (vsim-3473) Component instance "FA2 : e_sub" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /fixed_calculator File: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/Fixed_cal.vhd
+# Loading work.e8_bt_multiplier(arc_8_b_multiplier)
+# Loading work.fulladder(fa_dtf1)
+# Loading work.h_adder(dataflow)
+# ** Warning: (vsim-3473) Component instance "FA4 : e_add" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /fixed_calculator File: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/Fixed_cal.vhd
+# Loading work.mux_4_to_1(behaviour)
+# ** Fatal: (vsim-3807) Types do not match between component and entity for port "Sel".
+#    Time: 0 ps  Iteration: 0  Instance: /fixed_calculator/FA5 File: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/16_b_mux.vhd Line: 10
+# FATAL ERROR while loading design
+# Error loading design
+# ** Error: Zgifvregr
+#        Unable to replace existing ini file (C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/new_cal.mpf).  File can not be renamed.
+# ** Error: Zgifvregr
+#        Unable to replace existing ini file (C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/new_cal.mpf).  File can not be renamed.
+# End time: 17:30:03 on Jun 06,2022, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 8
+# Compile of cal_fixed.vhd failed with 2 errors.
+# Compile of cal_fixed.vhd was successful with warnings.
+# Compile of 1_bit_full_adder.vhd was successful.
+# Compile of 1_bit_full_adder_TB.vhd was successful with warnings.
+# Compile of 4b_adder_subtractor.vhd failed with 1 errors.
+# Compile of 8_bit multiplier.vhd was successful.
+# Compile of 8_bit_multiplier_TB.vhd was successful with warnings.
+# Compile of 16_b_mux.vhd was successful.
+# Compile of 16b_decorder.vhd was successful.
+# Compile of adder_to_mux.vhd was successful.
+# Compile of b16_bcd_decorder.vhd failed with 1 errors.
+# Compile of b16b_decorder.vhd was successful with warnings.
+# Compile of BCD_to_7 seg.vhd was successful.
+# Compile of calcultaor.vhd was successful.
+# Compile of e8_b_subtractor.vhd was successful.
+# Compile of e8_bit_ad_sub.vhd was successful.
+# Compile of e8b_adder.vhd was successful.
+# Compile of extra.vhd failed with 1 errors.
+# Compile of fin_decod.vhd failed with 1 errors.
+# Compile of Fixed_cal.vhd was successful with warnings.
+# Compile of half_adder.vhd was successful.
+# Compile of half_adder_TB.vhd was successful with warnings.
+# Compile of r_c_adder.vhd was successful.
+# Compile of r_c_adder_TB.vhd was successful with warnings.
+# Compile of cal_fixed.vhd was successful with warnings.
+# 23 compiles, 4 failed with 4 errors.
+vsim -gui work.calculator_fixed
+# vsim -gui work.calculator_fixed 
+# Start time: 17:32:30 on Jun 06,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.calculator_fixed(behaviour)
+# ** Warning: (vsim-3473) Component instance "FA1 : e_add" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /calculator_fixed File: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/cal_fixed.vhd
+# ** Warning: (vsim-3473) Component instance "FA2 : e_sub" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /calculator_fixed File: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/cal_fixed.vhd
+# Loading work.e8_bt_multiplier(arc_8_b_multiplier)
+# Loading work.fulladder(fa_dtf1)
+# Loading work.h_adder(dataflow)
+# ** Warning: (vsim-3473) Component instance "FA4 : e_add" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /calculator_fixed File: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/cal_fixed.vhd
+# Loading work.mux_4_to_1(behaviour)
+# ** Fatal: (vsim-3807) Types do not match between component and entity for port "Sel".
+#    Time: 0 ps  Iteration: 0  Instance: /calculator_fixed/FA5 File: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/16_b_mux.vhd Line: 10
+# FATAL ERROR while loading design
+# Error loading design
+# ** Error: Zgifvregr
+#        Unable to replace existing ini file (C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/new_cal.mpf).  File can not be renamed.
+# ** Error: Zgifvregr
+#        Unable to replace existing ini file (C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/project calculator/new_cal.mpf).  File can not be renamed.
+# End time: 17:32:30 on Jun 06,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 10
