@@ -3,44 +3,59 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity bcdm is
-    port (
+    port (x : in  std_logic_vector(7 downto 0); 
+     y : in  std_logic_vector(7 downto 0);
+     sel : inout bit_vector(1 downto 0);
         
-        input:      inout   std_logic_vector (15 downto 0);
+        input: inout   std_logic_vector (15 downto 0);
         ones:       inout  std_logic_vector (3 downto 0);
         tens:       inout  std_logic_vector (3 downto 0);
         hundreds:   inout  std_logic_vector (3 downto 0);
         thousands:  inout  std_logic_vector (3 downto 0);
-LED_out_1,LED_out_2,LED_out_3,LED_out_4 : inout std_logic_vector(6 downto 0 )
+LED_out_1,LED_out_2,LED_out_3,LED_out_4 : inout std_logic_vector(6 downto 0 )-----7 bit vector,bcz 7seg_display,dont change to 6 downto 0  xxx
 --LED_out_1,LED_out_2,LED_out_3,LED_out_4 : out std_logic_vector(7 downto 0 )
     );
 end entity;
 
 architecture fum of bcdm is
 ----------------------------------------------------------------------
-
-
-component Mux_4_to_1  is
-
+component Mux_4_to_1 is
 port(A : in std_logic_vector(15 downto 0 );
      B : in std_logic_vector(15 downto 0 );
      C : in  std_logic_vector(15 downto 0 );
      D : in  std_logic_vector(15 downto 0 );
      Sel : in  bit_vector(1 downto 0 ); 
-     F : out  std_logic_vector(15 downto 0) );
+     F : inout  std_logic_vector(15 downto 0 )
+     );
 end component;
----------------------------------------------------------------------
+----------------------------------------------------------------------
 
-alias Hex_Display_Data: std_logic_vector (15 downto 0) is input;
+component fix_calculator is
+
+ port(x : in  std_logic_vector(7 downto 0); 
+     y : in  std_logic_vector(7 downto 0);
+     sel : inout bit_vector(1 downto 0);              
+     Ans : inout  std_logic_vector(15 downto 0));
+end component;
+----------------------------------------------------------------------
+
+    alias Hex_Display_Data: std_logic_vector (15 downto 0) is input;
     alias rpm_1:    std_logic_vector (3 downto 0) is ones;
     alias rpm_10:   std_logic_vector (3 downto 0) is tens;
     alias rpm_100:  std_logic_vector (3 downto 0) is hundreds;
     alias rpm_1000: std_logic_vector (3 downto 0) is thousands;
+
 begin
+
+ fix_cal : fix_calculator
+           port map (x,y,sel,input);
+
    
  --  mux1 :   
    --       port map();
+--signal input : std_logic_vector (15 downto 0);
+  
 
-    
     process (Hex_Display_Data)
         type fourbits is array (3 downto 0) of std_logic_vector(3 downto 0);
         -- variable i : integer := 0;  -- NOT USED
