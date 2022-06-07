@@ -1,18 +1,32 @@
-project open {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/test_code_project/test_2_project}
-# Compile of 1_bit_full_adder.vhd was successful.
-# Compile of 1_bit_full_adder_TB.vhd was successful with warnings.
-# Compile of 8_bit multiplier.vhd was successful.
-# Compile of 8_bit_multiplier_TB.vhd was successful with warnings.
-# Compile of 16b_decorder.vhd was successful.
-# Compile of adder_to_mux.vhd was successful.
-# Compile of b16b_decorder.vhd was successful with warnings.
-# Compile of BCD_to_7 seg.vhd was successful.
-# Compile of fin_decod.vhd was successful.
-# Compile of half_adder.vhd was successful.
-# Compile of half_adder_TB.vhd was successful with warnings.
-# Compile of Mux_4_to_1.vhd was successful.
-# Compile of r_c_adder.vhd was successful.
-# Compile of r_c_adder_TB.vhd was successful with warnings.
-# Compile of fix_cal.vhd was successful.
-# Compile of sub_for_calc.vhd was successful.
-# 16 compiles, 0 failed with no errors.
+vsim -gui work.fix_calculator
+# vsim -gui work.fix_calculator 
+# Start time: 18:41:07 on Jun 07,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fix_calculator(behaviour)
+# Loading work.r_c_adder(fa_dtf1)
+# Loading work.fulladder(fa_dtf1)
+# Loading work.h_adder(dataflow)
+# Loading work.sub(behaviour)
+# Loading work.e8_bt_multiplier(arc_8_b_multiplier)
+# Loading work.mux_4_to_1(behaviour)
+add wave -position insertpoint sim:/fix_calculator/*
+force -freeze sim:/fix_calculator/x 01010101 0
+force -freeze sim:/fix_calculator/y 10011001 0
+run
+force -freeze sim:/fix_calculator/sel 10 0
+run
+force -freeze sim:/fix_calculator/sel 11 0
+run
+force -freeze sim:/fix_calculator/sel 01 0
+run
+quit -sim
+# ** Error: Zgifvregr
+#        Unable to replace existing ini file (C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project 8bit calculator/test_code_project/fix_calculator.mpf).  File can not be renamed.
+# ** Error: Zgifvregr
+#        Unable to replace existing ini file (C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project 8bit calculator/test_code_project/fix_calculator.mpf).  File can not be renamed.
+# ** Error: Zgifvregr
+#        Unable to replace existing ini file (C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project 8bit calculator/test_code_project/fix_calculator.mpf).  File can not be renamed.
+# End time: 18:42:44 on Jun 07,2022, Elapsed time: 0:01:37
+# Errors: 3, Warnings: 1
