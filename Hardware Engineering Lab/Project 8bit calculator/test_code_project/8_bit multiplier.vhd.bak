@@ -168,7 +168,7 @@ x77<=x(7) and y(7);
 	port map(x01,x10,'0',s1,p1);---x00-->x01
 
   FA2 : fulladder
-	port map(x11,x20,s1,s2,k1);--x00--->x20,  x12-->x11
+	port map(x11,x20,s1,s2,"0");--x00--->x20,  x12-->x11
  
  
   FA3 : fulladder
