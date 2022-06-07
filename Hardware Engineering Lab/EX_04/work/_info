@@ -13,21 +13,21 @@ Eclk
 Z0 w1653677752
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 37
+!i122 68
 Z3 dC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04
-Z4 8C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\CLK.vhd
-Z5 FC:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\CLK.vhd
+Z4 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/CLK.vhd
+Z5 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/CLK.vhd
 l0
 L4 1
 V>4WlLG>[`YdO`=HSN@7OL3
 !s100 n@B?8c`S<AjNnlCSz_A5[0
 Z6 OV;C;2021.1;73
 32
-Z7 !s110 1653677755
+Z7 !s110 1654358176
 !i10b 1
-Z8 !s108 1653677755.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\CLK.vhd|
-Z10 !s107 C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\CLK.vhd|
+Z8 !s108 1654358176.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/CLK.vhd|
+Z10 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/CLK.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
@@ -35,7 +35,7 @@ Ed_ff
 w1653674331
 R1
 R2
-!i122 25
+!i122 65
 R3
 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/D_FF.vhd
 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/D_FF.vhd
@@ -45,9 +45,9 @@ V80E^CojCo0>JPjV;PF5?n0
 !s100 6YPGGk[mDW9abBGWa3^gS2
 R6
 32
-Z13 !s110 1653676876
+Z13 !s110 1654358175
 !i10b 1
-Z14 !s108 1653676876.000000
+Z14 !s108 1654358175.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/D_FF.vhd|
 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/D_FF.vhd|
 !i113 1
@@ -58,7 +58,7 @@ R0
 R1
 R2
 DEx4 work 4 d_ff 0 22 80E^CojCo0>JPjV;PF5?n0
-!i122 37
+!i122 68
 R4
 R5
 l11
@@ -101,7 +101,7 @@ Ed_ff_tb1
 Z15 w1653676275
 R1
 R2
-!i122 26
+!i122 66
 R3
 Z16 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/D_FF_Tb1.vhd
 Z17 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/D_FF_Tb1.vhd
@@ -123,7 +123,7 @@ Abehavioral
 R1
 R2
 DEx4 work 8 d_ff_tb1 0 22 hf8jN_6K[Rlin6BQL1P5G3
-!i122 26
+!i122 66
 l23
 L7 21
 VhWd0C8E1J_cg88EZC^THG3
@@ -164,62 +164,62 @@ Ee8_b_s_reg
 Z20 w1653683210
 R1
 R2
-!i122 58
+!i122 69
 R3
-Z21 8C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\e8_b_shift_register.vhd
-Z22 FC:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\e8_b_shift_register.vhd
+Z21 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/e8_b_shift_register.vhd
+Z22 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/e8_b_shift_register.vhd
 l0
 L6 1
 V`zBW^<<BZY_S3[iD5=43<1
 !s100 A8CH:An;zIP>>LPXQchnh0
 R6
 32
-Z23 !s110 1653683212
+R7
 !i10b 1
-Z24 !s108 1653683212.000000
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\e8_b_shift_register.vhd|
-Z26 !s107 C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\e8_b_shift_register.vhd|
+R8
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/e8_b_shift_register.vhd|
+Z24 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/e8_b_shift_register.vhd|
 !i113 1
 R11
 R12
 Abehaviour
 R1
 R2
-Z27 DEx4 work 10 e8_b_s_reg 0 22 `zBW^<<BZY_S3[iD5=43<1
-!i122 58
+DEx4 work 10 e8_b_s_reg 0 22 `zBW^<<BZY_S3[iD5=43<1
+!i122 69
 l15
 L13 29
 V=L_SWDbU:ljmj;47X81la2
 !s100 Yh`>af7d59Ln@YRnJ6aJ=0
 R6
 32
-R23
+R7
 !i10b 1
+R8
+R23
 R24
-R25
-R26
 !i113 1
 R11
 R12
 Emux_4_to_1
-Z28 w1653673424
+Z25 w1654359439
 R1
 R2
-!i122 27
+!i122 73
 R3
-Z29 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1.vhd
-Z30 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1.vhd
+Z26 8C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\Mux_4_to_1.vhd
+Z27 FC:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\Mux_4_to_1.vhd
 l0
 L5 1
 Vc<8ckAnjKNDzAQCgaoXB33
 !s100 75a>8;N^ag^OQFJWN@Y>L1
 R6
 32
-R13
+Z28 !s110 1654359448
 !i10b 1
-R14
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1.vhd|
-Z32 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1.vhd|
+Z29 !s108 1654359448.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\Mux_4_to_1.vhd|
+Z31 !s107 C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\Mux_4_to_1.vhd|
 !i113 1
 R11
 R12
@@ -227,29 +227,29 @@ Abehaviour
 R1
 R2
 DEx4 work 10 mux_4_to_1 0 22 c<8ckAnjKNDzAQCgaoXB33
-!i122 27
+!i122 73
 l17
-L15 18
-VNU41AGHlnBB4L=mYIfWAz1
-!s100 mcOo62A<^b5Kgi1oj_SDQ2
+Z32 L15 18
+Z33 VNU41AGHlnBB4L=mYIfWAz1
+Z34 !s100 mcOo62A<^b5Kgi1oj_SDQ2
 R6
 32
-R13
+R28
 !i10b 1
-R14
+R29
+R30
 R31
-R32
 !i113 1
 R11
 R12
 Emux_4_to_1_tb
-Z33 w1653676831
+Z35 w1653676831
 R1
 R2
-!i122 28
+!i122 67
 R3
-Z34 8C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\Mux_4_to_1_TB.vhd
-Z35 FC:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\Mux_4_to_1_TB.vhd
+Z36 8C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1_TB.vhd
+Z37 FC:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1_TB.vhd
 l0
 L6 1
 V:5[WR;1e9nn[ZS[^UL=3d0
@@ -259,8 +259,8 @@ R6
 R13
 !i10b 1
 R14
-Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\Mux_4_to_1_TB.vhd|
-Z37 !s107 C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\Mux_4_to_1_TB.vhd|
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1_TB.vhd|
+Z39 !s107 C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1_TB.vhd|
 !i113 1
 R11
 R12
@@ -268,7 +268,7 @@ Abehavioral
 R1
 R2
 DEx4 work 13 mux_4_to_1_tb 0 22 :5[WR;1e9nn[ZS[^UL=3d0
-!i122 28
+!i122 67
 l29
 L9 32
 V2j<eVSdG[mAjEX9f`5ccd0
@@ -278,8 +278,8 @@ R6
 R13
 !i10b 1
 R14
-R36
-R37
+R38
+R39
 !i113 1
 R11
 R12

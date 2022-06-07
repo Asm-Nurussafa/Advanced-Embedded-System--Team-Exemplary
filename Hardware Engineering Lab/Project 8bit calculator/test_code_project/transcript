@@ -1,0 +1,18 @@
+project open {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project files using std_logic/test_code_project/test_2_project}
+# Compile of 1_bit_full_adder.vhd was successful.
+# Compile of 1_bit_full_adder_TB.vhd was successful with warnings.
+# Compile of 8_bit multiplier.vhd was successful.
+# Compile of 8_bit_multiplier_TB.vhd was successful with warnings.
+# Compile of 16b_decorder.vhd was successful.
+# Compile of adder_to_mux.vhd was successful.
+# Compile of b16b_decorder.vhd was successful with warnings.
+# Compile of BCD_to_7 seg.vhd was successful.
+# Compile of fin_decod.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# Compile of half_adder_TB.vhd was successful with warnings.
+# Compile of Mux_4_to_1.vhd was successful.
+# Compile of r_c_adder.vhd was successful.
+# Compile of r_c_adder_TB.vhd was successful with warnings.
+# Compile of fix_cal.vhd was successful.
+# Compile of sub_for_calc.vhd was successful.
+# 16 compiles, 0 failed with no errors.
