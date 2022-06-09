@@ -1,11 +1,11 @@
-library ieee
+library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity bcdm is
     port (x : in  std_logic_vector(7 downto 0); 
      y : in  std_logic_vector(7 downto 0);
-     sel : inout bit_vector(1 downto 0);
+     sel : inout std_logic_vector(1 downto 0);
         
         input: inout   std_logic_vector (15 downto 0);
         ones:       inout  std_logic_vector (3 downto 0);
