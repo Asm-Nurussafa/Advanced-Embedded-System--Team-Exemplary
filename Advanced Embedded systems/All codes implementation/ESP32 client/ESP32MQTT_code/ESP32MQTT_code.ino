@@ -36,7 +36,7 @@ const char* ssid = "Nirojan98"; // mobile hotspot
 const char* password = "nirojan98";
 
 // Add your MQTT Broker IP address, example:
-const char* mqtt_server = "192.168.229.1";   //--- IP address of Raspbery pi
+const char* mqtt_server = "192.168.229.2";   //--- IP address of Raspbery pi
 
 WiFiClient espClient;
 PubSubClient client(espClient);
