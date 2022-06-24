@@ -1,1 +1,5 @@
-# Compile of test1.vhd failed with 1 errors.
+# Compile of fin_decod.vhd was successful.
+# Compile of 8_bit multiplier.vhd was successful.
+# Compile of BCD_to_7 seg.vhd was successful.
+# Compile of Mux_4_to_1.vhd was successful.
+# Compile of Mux_4_to_1.vhd was successful.
