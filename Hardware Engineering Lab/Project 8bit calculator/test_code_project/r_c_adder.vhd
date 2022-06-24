@@ -4,18 +4,19 @@ use ieee.std_logic_1164.all;
 
 entity r_c_adder is
 port(x,y :in std_logic_vector(7 downto 0) ;
-     --Cin : in std_logic ;
+                                                                           --Cin : in std_logic ;
+																		   --declaration of ports
      s_add : inout std_logic_vector(15 downto 0);
      Co :out std_logic);
 end entity;
 
-architecture FA_dtF1 of r_c_adder is
+architecture FA_dtF1 of r_c_adder is                                            --declaration of signals
 signal sig1,sig2,sig3,sig4,sig5,sig6,sig7,sig8 : std_logic;
 signal s_a :std_logic_vector (7 downto 0);
 signal complete :std_logic_vector (7 downto 0);
 
-component fulladder is
-port(A : in std_logic ;
+component fulladder is                                                        --adding the component
+port(A : in std_logic ;                                                     
      B : in std_logic;
      cin : in std_logic;
      C : out std_logic;
@@ -25,7 +26,7 @@ end component;
 
 begin
 complete<="00000000" ;
-    s_add<= complete & s_a;
+    s_add<= complete & s_a;                                                  ----port mapping to component
      rc1 : fulladder 
             port map (x(0),y(0),'0',sig1,s_a(0));
 

@@ -1,3 +1,4 @@
+-- this is the multiplier code which takes in two 8-bit numbers and gives a 16-bit output.    
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -12,7 +13,7 @@ end entity;
 
 architecture arc_8_b_multiplier of e8_bt_multiplier is
 
-component fulladder  is
+component fulladder  is                   -- the full adder  is used as a component
 
 port(A : in std_logic ;
      B : in std_logic;
@@ -21,6 +22,7 @@ port(A : in std_logic ;
      S :out std_logic);
 end component;
 
+                     -- signal declaration, these signals are the carries and sums and single output bits from the multiplication process.
 signal s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20,s21,s22,s23,s24,s25,s26,s27,s28,s29,s30,s31,s32,s33,s34,s35,s36,s37,s38,s39,s40,s41,s42,s43,s44,s45,s46,s47,s48,s49,s50,s51,s52,s53,s54,s55 : std_logic;
  signal  k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20,k21,k22,k23,k24,k25,k26,k27,k28,k29,k30,k31,k32,k33,k34,k35,k36,k37,k38,k39,k40,k41,k42: std_logic;
  signal  p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15 :std_logic;
@@ -162,7 +164,7 @@ x67<=x(6) and y(7);
 x77<=x(7) and y(7);
 
 
-
+    -- port mapping them all to make the multiplier
 
   FA1 : fulladder 
 	port map(x01,x10,'0',s1,p1);---x00-->x01
@@ -369,10 +371,10 @@ x77<=x(7) and y(7);
 
 
 
-     Ans(0)<=x00; 	
+     Ans(0)<=x00; 	-- simply mapping the individual signals to the 'p' vector which is the final output vector of the multiplier code
      Ans(1)<=p1; 
      Ans(2)<=p2;
-    Ans(3)<=p3;
+     Ans(3)<=p3;
      Ans(4)<=p4;
      Ans(5)<=p5;
      Ans(6)<=p6;
@@ -383,7 +385,7 @@ x77<=x(7) and y(7);
      Ans(11)<=P11;
      Ans(12)<=p12;
      Ans(13)<=p13;
-   Ans(14)<=p14;
+     Ans(14)<=p14;
      Ans(15)<=p15;
      
      --Ans <= (15=>p15, 14=>p14, 13=>p13, 12=>p12, 11=>p11, 10=>p10, 9=>p9,8=>p8,7=>p7, 6=>p6, 5=>p5, 4=>p4, 3=>p3,2=>p2,1=>p1,0=>x00); 

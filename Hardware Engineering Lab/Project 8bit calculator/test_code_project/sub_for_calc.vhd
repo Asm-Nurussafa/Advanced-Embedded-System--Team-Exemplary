@@ -1,7 +1,7 @@
 
 library ieee;
 use ieee.std_logic_1164.all;
-entity sub is
+entity sub is                                                --decalration of ports
 port(
       x: in std_logic_vector(7 downto 0);
       y: in std_logic_vector(7 downto 0);
@@ -12,7 +12,7 @@ end entity;
 
 architecture behaviour of sub is
 
-component fulladder is
+component fulladder is                                   --adding the components
 port(A : in std_logic ;
      B : in std_logic;
      cin : in std_logic;
@@ -45,7 +45,7 @@ y_n(6)<= y(6) xor '1';
 y_n(7)<= y(7) xor '1';
 
 
- ad1 :  fulladder
+ ad1 :  fulladder                                            --port mapping to the component
   port map (x(0),y_n(0),'1',sig(0),s_s(0));
  ad2:  fulladder
   port map (x(1),y_n(1),sig(0),sig(1),s_s(1));

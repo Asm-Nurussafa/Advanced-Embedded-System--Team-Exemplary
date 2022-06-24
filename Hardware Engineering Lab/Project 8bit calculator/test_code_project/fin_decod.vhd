@@ -1,3 +1,7 @@
+-- this code contains the overall implementation of all the sub components and this takes in two 8 bit numbers and drives the 4 LED segments according to decimal value
+
+
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -19,7 +23,8 @@ end entity;
 
 architecture fum of bcdm is
 ----------------------------------------------------------------------
-component Mux_4_to_1 is
+component Mux_4_to_1 is                                                 -- this component takes in input from th four different sub components (8 bit adder,subtractor and multiplier and 2 bit selector 
+                                                                         --                                               and selects the desired value according to selector input provided by user. 
 port(A : in std_logic_vector(15 downto 0 );
      B : in std_logic_vector(15 downto 0 );
      C : in  std_logic_vector(15 downto 0 );
@@ -39,7 +44,7 @@ component fix_calculator is
 end component;
 ----------------------------------------------------------------------
 
-    alias Hex_Display_Data: std_logic_vector (15 downto 0) is input;
+    alias Hex_Display_Data: std_logic_vector (15 downto 0) is input;  -- 
     alias rpm_1:    std_logic_vector (3 downto 0) is ones;
     alias rpm_10:   std_logic_vector (3 downto 0) is tens;
     alias rpm_100:  std_logic_vector (3 downto 0) is hundreds;
@@ -61,13 +66,13 @@ begin
         -- variable i : integer := 0;  -- NOT USED
         -- variable bcd : std_logic_vector(15 downto 0) := (others => '0');
         variable bcd:   std_logic_vector (15 downto 0);
-        -- variable bint : std_logic_vector(15 downto 0) := Hex_Display_Data;
+        -- variable bint : std_logic_vector(15 downto 0) := Hex_Display_Data;         
         variable bint:  std_logic_vector (13 downto 0); -- SEE process body
     begin
         bcd := (others => '0');      -- ADDED for EVERY CONVERSION
         bint := Hex_Display_Data (13 downto 0); -- ADDED for EVERY CONVERSION
 
-        for i in 0 to 13 loop
+        for i in 0 to 13 loop                                                      -- this algorithm converts 8 bit binary number to display the correct values on the displays in decimal value, using a shifting and adding method
             bcd(15 downto 1) := bcd(14 downto 0);
             bcd(0) := bint(13);
             bint(13 downto 1) := bint(12 downto 0);
@@ -100,8 +105,8 @@ end process;
 process(rpm_1,rpm_10,rpm_100,rpm_1000)
 begin
  case rpm_1 is
-    when "0000" => LED_out_1 <= "0000001"; -- "0"     
-    when "0001" => LED_out_1 <= "1001111"; -- "1" 
+    when "0000" => LED_out_1 <= "0000001"; -- "0"     --   from here on the decoding to the display is shown,it basically converts the binary data from the previous  
+    when "0001" => LED_out_1 <= "1001111"; -- "1"                                                                               -- algorithm and helps to display correctly on display
     when "0010" => LED_out_1 <= "0010010"; -- "2" 
     when "0011" => LED_out_1 <= "0000110"; -- "3" 
     when "0100" => LED_out_1 <= "1001100"; -- "4" 
