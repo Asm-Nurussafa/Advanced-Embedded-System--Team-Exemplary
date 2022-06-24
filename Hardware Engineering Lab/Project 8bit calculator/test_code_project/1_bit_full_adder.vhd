@@ -11,14 +11,14 @@ end fulladder;
 
 architecture FA_dtF1 of fulladder is
 
-component h_adder is
+component h_adder is     -- declaration of ports
 port( a,b : in std_logic; 
       sum,carry : out std_logic);
 end component;
 
 signal csig1, csig2, ssig1 :  std_logic;
 
-begin
+begin                       -- declaration of logics
   HA1 : h_adder 
 	port map(A, B, ssig1,csig1);
   HA2 : h_adder
