@@ -36,7 +36,7 @@ const char* ssid = "Nirojan98"; // mobile hotspot
 const char* password = "nirojan98";
 
 // Add your MQTT Broker IP address, example:
-const char* mqtt_server = "192.168.229.1";   //--- IP address of Raspbery pi
+const char* mqtt_server = "192.168.229.2";   //--- IP address of Raspbery pi
 
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -153,6 +153,9 @@ void temp_hum(){
     client.publish("esp32/temp",pointer_to_created_string);
     
     }
+
+
+    
     void moisture_01() { 
       char msgBuffer_moist[20];           // make sure this is big enough to hold your string
     char *pointer_to_moist_string;
@@ -175,6 +178,8 @@ void temp_hum(){
  //sensorValue=57;
  if(sensorValue<=150){   // red led
   client.publish("esp32/status","off");
+  client.publish("esp32/water","on");
+  Serial.print("pls activate motor");
 Serial.print("moisture less than 100  Red Led on");
   digitalWrite (27, HIGH); // Buzzer wird eingeschaltet
   digitalWrite (13, LOW); // Buzzer wird eingeschaltet

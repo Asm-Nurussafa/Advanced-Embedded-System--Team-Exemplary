@@ -1,0 +1,2 @@
+fin_decod.vhd --- this is the overall tasks or final claculator project file
+fin_decod_TB.vhd -----this is the test bench for the overall project
