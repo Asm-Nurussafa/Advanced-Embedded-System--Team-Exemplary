@@ -56,7 +56,7 @@ s(7)<=y7;
 
 
      xbadder :   r_c_adder
-  port map (x0,x1,x2,x3,x4,x5,x6,x7,    sig1,sig2,sig3,sig4,sig5,sig6,sig7,sig8,   K,   y0,y1,y2,y3,y4,y5,y6,y7,co);
+  port map (x0,x1,x2,x3,x4,x5,x6,x7,    sig1,sig2,sig3,sig4,sig5,sig6,sig7,sig8,   K,   y0,y1,y2,y3,y4,y5,y6,y7,co);  --porting tha port to the component
 
 
 
