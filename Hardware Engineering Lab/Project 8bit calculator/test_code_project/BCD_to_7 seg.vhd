@@ -1,3 +1,5 @@
+-- this is the very basic component of the project of the project, this is used throughout the project to build up complicated components later.
+
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -8,7 +10,7 @@ end bcd_7seg;
  
 architecture Behavioral of bcd_7seg is
  
-begin
+begin                                      -- using the concurrent signal assignments using the truth table which maps the leds to the decimal view of numbers
  
 P <= A or C or (B and D) or ( (not B) and (not C) and (not D));
 Q <= A or ( (not A) and (not B) ) or ( (not C) and (not D) ) or (C and D) ;
