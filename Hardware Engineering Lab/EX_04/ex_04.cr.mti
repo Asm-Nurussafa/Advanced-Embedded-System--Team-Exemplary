@@ -1,0 +1,53 @@
+{C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/CLK.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/CLK.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CLK
+-- Compiling architecture behaviour of D_FF
+-- Loading entity D_FF
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/CLK.vhd(15): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/CLK.vhd(18): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/D_FF.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/D_FF.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity D_FF
+-- Compiling architecture behaviour of D_FF
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/e8_b_shift_register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/e8_b_shift_register.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity e8_b_s_reg
+-- Compiling architecture behaviour of e8_b_s_reg
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\EX_04\Mux_4_to_1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux_4_to_1
+-- Compiling architecture behaviour of Mux_4_to_1
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1_TB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/Mux_4_to_1_TB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux_4_to_1_TB
+-- Compiling architecture behavioral of Mux_4_to_1_TB
+
+} {} {}} {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/D_FF_Tb1.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/D_FF_Tb1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity D_FF_TB1
+-- Compiling architecture behavioral of D_FF_TB1
+** Warning: C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/EX_04/D_FF_Tb1.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}}

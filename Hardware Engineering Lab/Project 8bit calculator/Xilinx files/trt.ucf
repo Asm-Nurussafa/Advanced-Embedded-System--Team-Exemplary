@@ -1,0 +1,55 @@
+NET "x<0>"     LOC= "K13"; 
+NET "x<1>"    LOC="K14";
+NET "x<2>"    LOC="J13"; 
+NET "x<3>"    LOC="J14"; 
+NET "x<4>"    LOC="H13"; 
+NET "x<5>"    LOC="H14";
+NET "x<6>"    LOC="G12"; 
+NET "x<7>"    LOC="F12"; 
+
+
+NET "y<0>"     LOC="P11";
+NET "y<1>"     LOC="P12";
+NET "y<2>"     LOC="N12";
+NET "y<3>"     LOC="P13";
+NET "y<4>"     LOC="N14";
+NET "y<5>"     LOC="L12";
+NET "y<6>"     LOC="P14";
+NET "y<7>"     LOC="K12";
+
+NET "sel<0>"    LOC="D12";
+NET "sel<1>"    LOC="T14";
+
+
+NET "LED_out_1<0>"     LOC="A5";
+NET "LED_out_1<1>"     LOC="A7";
+NET "LED_out_1<2>"     LOC="A3";
+NET "LED_out_1<3>"     LOC="D5";
+NET "LED_out_1<4>"     LOC="B4";
+NET "LED_out_1<5>"     LOC="A4";
+NET "LED_out_1<6>"     LOC="C5";
+
+NET "LED_out_2<0>"     LOC="B5";
+NET "LED_out_2<1>"     LOC="E6";
+NET "LED_out_2<2>"     LOC="D6";
+NET "LED_out_2<3>"     LOC="C6";
+NET "LED_out_2<4>"     LOC="B6";
+NET "LED_out_2<5>"     LOC="E7";
+NET "LED_out_2<6>"     LOC="B7";
+
+NET "LED_out_3<0>"     LOC="D7";
+NET "LED_out_3<1>"     LOC="C7";
+NET "LED_out_3<2>"     LOC="D8";
+NET "LED_out_3<3>"     LOC="C8";
+NET "LED_out_3<4>"     LOC="J16";
+NET "LED_out_3<5>"     LOC="L14";
+NET "LED_out_3<6>"     LOC="L15";
+
+NET "LED_out_4<0>"     LOC="J16";
+NET "LED_out_4<1>"     LOC="N15";
+NET "LED_out_4<2>"     LOC="N16";
+NET "LED_out_4<3>"     LOC="M13";
+NET "LED_out_4<4>"     LOC="M14";
+NET "LED_out_4<5>"     LOC="M15";
+NET "LED_out_4<6>"     LOC="M16";
+

@@ -1,0 +1,133 @@
+--------------------------------------------------------------------
+-- CLK.vhd
+
+--this clock is working well
+
+entity CLK is 
+
+port(CLK : inout bit);
+
+end entity;
+
+architecture arc_CLK of CLK is 
+
+begin
+ 
+    process
+     
+       begin
+           loop
+              CLK<= not CLK;
+              wait for 50ns;
+           end loop;
+   end process;
+
+
+end architecture;
+-------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------
+--JK_flipflop.
+
+--this JK flipflop is working very well synchronously with clock
+
+
+entity JK_FF is 
+
+port(J,K: in bit;
+
+      Q,Q_bar   : out bit;
+CLK : inout bit );
+
+end entity;
+
+
+architecture arc_JK_FF of JK_FF is 
+--signal sig1,sig2,sig3,sig4 : bit ;
+
+
+
+signal temp : bit;
+
+begin
+   
+
+--    sig1 <= not (J and CLK and sig4);
+ --   sig2 <= not (K and CLK and sig3);
+  --  sig3 <= not (sig4 and sig1);
+   -- sig4 <= not (sig2 and sig4);
+   -- Q <= sig3;
+   -- Qn <= sig4;   
+
+
+process 
+begin
+   
+       
+           loop
+              CLK<= not CLK;
+              wait for 50ns;
+           end loop;
+         
+end process;
+
+process (CLK)
+begin
+   if (CLK'event and CLK='1') then
+     if J='0' and K='0' then
+          temp <= temp;
+     elsif J='0' and K='1' then
+          temp <= '0';
+     elsif J='1' and K='0' then
+          temp <='1';
+     elsif J='1' and K='1' then
+          temp <= not temp;
+     end if;
+  end if;
+         
+end process;
+Q <=temp;
+      Q_bar <= not temp;
+
+end architecture;
+
+-----------------------------------------------------------------------------
+
+
+
+
+------------------------------------------------------------------------------
+--three_bit_synchronous down counter.
+
+
+
+architecture arc_three_b_down_cntr of three_b_down_cntr is 
+component JK_FF is
+port(J,K: in bit;
+
+      Q,Q_bar   : out bit;
+CLK : inout bit );
+end component;
+
+ signal sig1,sig2,sig3 :bit;
+  begin 
+ --sig1 <= not Q;
+   sig3 <=sig2 and sig1;
+
+
+  
+ FF1 : JK_FF
+       port map ('1','1',Q0,sig1);
+
+ FF2 : JK_FF
+       port map (sig1,sig1,Q1,sig2);
+
+ FF3 : JK_FF
+       port map (sig3,sig3,Q2,Q2_bar);
+
+
+end architecture;
+
+------------------------------------------------------------------------------

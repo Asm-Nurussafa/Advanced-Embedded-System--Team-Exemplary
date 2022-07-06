@@ -1,0 +1,25 @@
+entity fulladder is
+port(A : in bit ;
+     B : in bit;
+     cin : in bit;
+     C : out bit;
+     S :out bit);
+end fulladder;
+
+architecture FA_dtF1 of fulladder is
+component halfadder is
+port(a : in bit; 
+     b : in bit;
+     c : out bit;
+     s :out bit);
+end component;
+
+signal csig1, csig2, ssig1 : bit;
+
+begin
+  HA1 : halfadder 
+	port map(A, B, csig1, ssig1);
+  HA2 : halfadder
+	port map(ssig1, cin, csig2, S);
+  	C <= csig1 or csig2;
+end FA_dtF1;

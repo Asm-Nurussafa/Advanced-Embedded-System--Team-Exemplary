@@ -1,1 +1,8 @@
+{C:/Users/nniro/OneDrive/Desktop/prototyping_car/Advanced-Embedded-System--Team-Exemplary/Hardware Engineering Lab/Project 8bit calculator/test_code_project/test1.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\Project 8bit calculator\test_code_project\test1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Compiling architecture rtl of aufgabe_5
+** Error: (vcom-11) Could not find work.aufgabe_5.
+** Note: C:\Users\nniro\OneDrive\Desktop\prototyping_car\Advanced-Embedded-System--Team-Exemplary\Hardware Engineering Lab\Project 8bit calculator\test_code_project\test1.vhd(1): VHDL Compiler exiting
 
+} {5.0 6.0} {}}
