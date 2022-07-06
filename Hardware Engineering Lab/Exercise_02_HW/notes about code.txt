@@ -1,7 +1,0 @@
-Header with team names and contributors need to be added
-
-comments need to be added to make the reader understand easily
-
-task splitting for each file needs also to be mentioned
-
-bit vector needs to be used and switched to where necessarry, therefore certain code needs update

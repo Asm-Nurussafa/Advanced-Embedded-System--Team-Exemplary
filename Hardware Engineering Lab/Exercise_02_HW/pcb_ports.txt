@@ -1,9 +1,0 @@
-input 1 -  8 toggle switches
-input 2 -  8 toggle wsitches
-selector-  2 toggle switches
-7seg-LED-  4 displays
-
-
-total input pins -> 8+8+2 = 18 inputs
-      output pins-> 4 pins for 4 displays
- 
